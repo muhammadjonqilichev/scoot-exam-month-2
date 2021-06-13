@@ -1,0 +1,19 @@
+$yellow:#fcb72b;
+$dark-navy: #495567;
+$grey:#939caa;
+$lexend:'Lexend Deca', sans-serif;
+$space:'Space Mono', sans-serif;
+@import './block/general';
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,a{
+    font-family: $lexend;
+}
+

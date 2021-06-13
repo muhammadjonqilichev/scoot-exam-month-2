@@ -1,0 +1,116 @@
+.process{   
+    @media (max-width:768px) {
+    }
+    .process__main{
+        width: 947px;
+        height: 15px;
+        background-color: $grey;
+        position: relative;
+        margin-bottom: 87px;
+        @media (max-width:768px) {
+            width: 512px;
+            transform: rotate(90deg);
+            top: 127px;
+            left: -100px;
+        }
+        @media (max-width:450px) {
+            background-color: transparent;
+            margin-left: 70px;
+        }
+        .first{
+            top: -45px;
+            left: 20%;
+            position: absolute;
+            background-color: $yellow;
+            background-image: url(/img/phone.svg);
+            background-repeat: no-repeat;
+            background-position: center;width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background-color: $yellow;
+            @media (max-width:768px) {
+                transform: rotate(-90deg);
+                left: 22%;
+            }
+            @media (max-width:450px) {
+                transform: rotate(-90deg);
+                left: 22%;
+            }
+        }
+        .second{
+            top: -40px;
+            left: 60%;
+            position: absolute;
+            background-color: $yellow;
+            background-image: url(/img/scooter.svg);
+            background-repeat: no-repeat;
+            background-position: center;width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background-color: $yellow;
+            @media (max-width:768px) {
+                transform: rotate(-90deg);
+            }
+            @media (max-width:450px) {
+                transform: rotate(-90deg);
+                left: 90%;
+            }
+        }
+        .third{
+            position: absolute;
+            top: -40px;
+            left: 100%;
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background-color: $yellow;
+            background-image: url(/img/cycle.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            @media (max-width:768px) {
+                transform: rotate(-90deg);
+                left: 98%;
+            }
+            @media (max-width:450px) {
+                transform: rotate(-90deg);
+                left: 150%;
+            }
+        }
+        
+    }
+    .main__block{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:768px) {
+            flex-direction: column;
+            margin-top: -110px;
+            margin-left: 40%;
+        }
+        @media (max-width:450px) {
+            margin: 0;
+        }
+        .box{
+            @media (max-width:768px) {
+                margin-bottom: 40px;
+            }
+            @media (max-width:450px) {
+                margin-bottom: 190px;
+                text-align: center;
+            }
+            .box__title{
+                font-family: $space;
+                color: $dark-navy;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: -1.07143px;
+                margin-bottom: 27px;
+            }
+            .box__text{
+                color: $grey;
+                width: 350px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+}
