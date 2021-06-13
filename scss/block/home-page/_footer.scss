@@ -88,6 +88,9 @@
             &:hover{
                 fill: #fff;
             }
+            @media (max-width:450px) {
+                padding-top: 64px;
+            }
         }
     }
 }
