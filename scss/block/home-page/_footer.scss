@@ -27,6 +27,8 @@
                     padding-top: 62px;
                 }
                 @media (max-width:450px) {
+                    width: 311px;
+                    margin: 0 auto;
                     text-align: center;
                     padding-top: 88px;
                     font-size: 32px;
@@ -43,6 +45,12 @@
                 }
                 .link__item{
                     margin-left: 18px;
+                    .download__link{
+                        @media (max-width:450px) {
+                            width: 120px;
+                            height: 40px;
+                        }
+                    }
                 }
             }
         }

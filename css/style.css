@@ -115,7 +115,8 @@
 @media (max-width: 450px) {
   .header .header__main .main__lp .fas {
     display: block;
-    margin-right: 80px;
+    margin-top: 5px;
+    padding-right: 100px;
     color: #fcb72b;
   }
 }
@@ -447,6 +448,7 @@
 }
 
 .process .main__block .box .box__title {
+  padding-top: 20px;
   font-family: "Space Mono", sans-serif;
   color: #495567;
   font-size: 24px;
@@ -735,6 +737,8 @@
 
 @media (max-width: 450px) {
   .footer .advertise .advertise__main .advertise__title {
+    width: 311px;
+    margin: 0 auto;
     text-align: center;
     padding-top: 88px;
     font-size: 32px;
@@ -759,6 +763,13 @@
 
 .footer .advertise .advertise__main .link .link__item {
   margin-left: 18px;
+}
+
+@media (max-width: 450px) {
+  .footer .advertise .advertise__main .link .link__item .download__link {
+    width: 120px;
+    height: 40px;
+  }
 }
 
 .footer .footer__main {

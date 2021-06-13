@@ -50,7 +50,8 @@
                 display: none;
                 @media (max-width:450px) {
                     display: block;
-                    margin-right: 80px;
+                    margin-top: 5px;
+                    padding-right: 100px;
                     color: $yellow;
                 }
             }
