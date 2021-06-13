@@ -116,7 +116,7 @@
   .header .header__main .main__lp .fas {
     display: block;
     margin-top: 5px;
-    padding-right: 100px;
+    padding-right: 90px;
     color: #fcb72b;
   }
 }
@@ -316,7 +316,7 @@
 @media (max-width: 450px) {
   .process .process__main {
     background-color: transparent;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
 
